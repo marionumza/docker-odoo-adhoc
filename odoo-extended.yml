@@ -14,8 +14,8 @@ services:
         depends_on:
             - db
         ports:
-            - "8069:8069"
-            - "8072:8072"
+            - "9088:8069"
+            - "6071:8072"
     odoo_in:
         extends:
             file: odoo-common.yml

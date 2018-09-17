@@ -18,8 +18,8 @@ services:
         depends_on:
             - db
         ports:
-            - "8069:8069"
-            - "8072:8072"
+            - "9088:8069"
+            - "6071:8072"
         volumes:
             - ./data/custom-addons:/opt/odoo/custom-addons
             - odoo_data:/opt/odoo/data
